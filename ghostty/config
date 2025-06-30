@@ -1,0 +1,24 @@
+theme=light:gruvbox-material-hard-light,dark:gruvbox-material-hard-dark
+background=#282828
+
+mouse-hide-while-typing=true
+
+keybind = super+r=reload_config
+keybind = ctrl+q=close_surface
+
+keybind = ctrl+j=goto_split:down
+keybind = ctrl+k=goto_split:up
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+l=goto_split:right
+
+keybind = ctrl+space>j=new_split:down
+keybind = ctrl+space>ctrl+j=new_split:down
+
+keybind = ctrl+space>k=new_split:up
+keybind = ctrl+space>ctrl+k=new_split:up
+
+keybind = ctrl+space>h=new_split:left
+keybind = ctrl+space>ctrl+h=new_split:left
+
+keybind = ctrl+space>l=new_split:right
+keybind = ctrl+space>ctrl+l=new_split:right
