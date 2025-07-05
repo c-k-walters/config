@@ -1,3 +1,4 @@
+-- TODO: add swift lint and format
 return {
 	{ -- Autoformat
 		"stevearc/conform.nvim",
