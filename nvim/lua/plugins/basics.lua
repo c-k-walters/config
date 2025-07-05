@@ -1,8 +1,8 @@
 return {
-    {
-        "NMAC427/guess-indent.nvim"
-    },
-    {
+	{
+		"NMAC427/guess-indent.nvim",
+	},
+	{
 		"folke/which-key.nvim",
 		event = "VimEnter", -- Sets the loading event to 'VimEnter'
 		opts = {
@@ -50,6 +50,7 @@ return {
 			spec = {
 				{ "<leader>s", group = "[S]earch" },
 				{ "<leader>t", group = "[T]oggle" },
+				{ "<leader>w", group = "[W]indow" },
 				{ "<leader>h", group = "Git [H]unk", mode = { "n", "v" } },
 			},
 		},
