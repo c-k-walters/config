@@ -1,2 +1,3 @@
 karabiner/automatic_backups/*
 .luarc.json
+nvim/lazy-lock.json

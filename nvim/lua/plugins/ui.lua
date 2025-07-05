@@ -6,6 +6,7 @@ return {
 		config = function()
 			---@diagnostic disable-next-line: missing-fields
 			vim.g.gruvbox_material_enable_italic = true
+			vim.g.gruvbox_material_background = "soft"
 			vim.cmd.colorscheme("gruvbox-material")
 		end,
 	},
@@ -26,6 +27,12 @@ return {
 				topdelete = { text = "‾" },
 				changedelete = { text = "~" },
 			},
+		},
+	},
+	{
+		"eandrju/cellular-automaton.nvim",
+		keys = {
+			{ "<leader>fml", "<cmd>CellularAutomaton make_it_rain<cr>", desc = "MAKE IT RAIN" },
 		},
 	},
 }
