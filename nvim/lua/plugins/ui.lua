@@ -35,4 +35,8 @@ return {
 			{ "<leader>fml", "<cmd>CellularAutomaton make_it_rain<cr>", desc = "MAKE IT RAIN" },
 		},
 	},
+	{
+		"echasnovski/mini.colors",
+		version = "*",
+	},
 }
