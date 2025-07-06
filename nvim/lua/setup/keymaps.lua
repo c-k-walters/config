@@ -3,16 +3,6 @@ vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
 vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Open diagnostic [Q]uickfix list" })
 
--- [W]indow:
-vim.keymap.set("n", "<C-h>", "<C-w><C-h>", { desc = "[W]indow: Move focus to the left window" })
-vim.keymap.set("n", "<C-l>", "<C-w><C-l>", { desc = "[W]indow: Move focus to the right window" })
-vim.keymap.set("n", "<C-j>", "<C-w><C-j>", { desc = "[W]indow: Move focus to the lower window" })
-vim.keymap.set("n", "<C-k>", "<C-w><C-k>", { desc = "[W]indow: Move focus to the upper window" })
-vim.keymap.set("n", "<leader>wj", "<C-w><C-s>", { desc = "[W]indow: Open split below" })
-vim.keymap.set("n", "<leader>wl", "<C-w><C-v>", { desc = "[W]indow: Open split right" })
-vim.keymap.set("n", "<leader>wtl", "<C-w><C-v><cmd>term<cr>", { desc = "[W]indow: Open term split right" })
-vim.keymap.set("n", "<leader>wtj", "<C-w><C-s><cmd>term<cr>", { desc = "[W]indow: Open term split down" })
-vim.keymap.set("n", "<leader>wq", "<C-w><C-q>", { desc = "[W]indow: Close current window" })
 vim.keymap.set("n", "<C-q>", "<C-w><C-q>", { desc = "[W]indow: Close current window" })
 --
 

@@ -4,5 +4,6 @@ background=#282828
 mouse-hide-while-typing=true
 keybind = super+r=reload_config
 
-macos-titlebar-style=hidden
-
+keybind = ctrl+a>n=new_tab
+keybind = ctrl+a>w=close_surface
+keybind = ctrl+a>j=next_tab
